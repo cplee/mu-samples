@@ -3,6 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
+      - cd ecs
       - echo ${CODEBUILD_RESOLVED_SOURCE_VERSION} > health
 
 artifacts:
