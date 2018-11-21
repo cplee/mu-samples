@@ -1,0 +1,12 @@
+namespace: ecs
+
+environments:
+- name: acceptance
+  provider: ecs
+- name: production
+  provider: ecs
+
+service:
+  port: 80
+  pathPatterns:
+  - /*

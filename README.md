@@ -1,2 +1,2 @@
-# mu-samples
-Samples for mu
+# Overview
+Samples for [mu](https://github.com/stelligent/mu).
